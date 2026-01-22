@@ -1,0 +1,35 @@
+{
+  "name": "video-forge",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI-powered video creation platform with Azure Sora, GPT-4o, and ElevenLabs",
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "start": "turbo run start",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\"",
+    "check-format": "prettier --check \"**/*.{ts,tsx,js,jsx,json,md}\"",
+    "type-check": "turbo run type-check",
+    "clean": "turbo run clean && rm -rf node_modules"
+  },
+  "keywords": [
+    "video-generation",
+    "ai",
+    "sora",
+    "azure",
+    "elevenlabs",
+    "gpt-4o"
+  ],
+  "author": "VideoForge Team",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  },
+  "packageManager": "pnpm@9.14.2",
+  "devDependencies": {
+    "turbo": "^2.3.3",
+    "prettier": "^3.4.2"
+  }
+}

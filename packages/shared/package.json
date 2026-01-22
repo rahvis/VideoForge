@@ -1,0 +1,32 @@
+{
+    "name": "@video-forge/shared",
+    "version": "1.0.0",
+    "private": true,
+    "description": "Shared TypeScript types and utilities for VideoForge",
+    "type": "module",
+    "main": "./dist/index.js",
+    "module": "./dist/index.mjs",
+    "types": "./dist/index.d.ts",
+    "exports": {
+        ".": {
+            "types": "./dist/index.d.ts",
+            "import": "./dist/index.mjs",
+            "require": "./dist/index.js"
+        },
+        "./types": {
+            "types": "./dist/types/index.d.ts",
+            "import": "./dist/types/index.mjs",
+            "require": "./dist/types/index.js"
+        }
+    },
+    "scripts": {
+        "build": "tsup",
+        "dev": "tsup --watch",
+        "type-check": "tsc --noEmit",
+        "clean": "rm -rf dist"
+    },
+    "devDependencies": {
+        "tsup": "^8.3.6",
+        "typescript": "^5.7.2"
+    }
+}

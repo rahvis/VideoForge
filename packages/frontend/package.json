@@ -1,0 +1,35 @@
+{
+    "name": "@video-forge/frontend",
+    "version": "1.0.0",
+    "private": true,
+    "description": "Next.js 14 frontend for VideoForge",
+    "scripts": {
+        "dev": "next dev --port 3000",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint",
+        "type-check": "tsc --noEmit",
+        "clean": "rm -rf .next out"
+    },
+    "dependencies": {
+        "@video-forge/shared": "workspace:*",
+        "next": "^15.1.4",
+        "react": "^19.0.0",
+        "react-dom": "^19.0.0",
+        "lucide-react": "^0.469.0",
+        "clsx": "^2.1.1",
+        "tailwind-merge": "^3.0.0",
+        "axios": "^1.7.9"
+    },
+    "devDependencies": {
+        "@types/node": "^22.10.5",
+        "@types/react": "^19.0.3",
+        "@types/react-dom": "^19.0.2",
+        "typescript": "^5.7.2",
+        "tailwindcss": "^4.0.0",
+        "@tailwindcss/postcss": "^4.0.0",
+        "postcss": "^8.4.49",
+        "eslint": "^9.17.0",
+        "eslint-config-next": "^15.1.4"
+    }
+}
