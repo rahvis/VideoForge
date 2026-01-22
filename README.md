@@ -2,6 +2,8 @@
 
 VideoForge is an AI-powered video creation platform leveraging the power of Sora, GPT-4o, and ElevenLabs.
 
+[Watch the Demo Video](https://www.youtube.com/watch?v=5AgyPNMKxhI)
+
 ## 🚀 Getting Started
 
 ### Prerequisites
